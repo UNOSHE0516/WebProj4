@@ -23,6 +23,7 @@ public class HelloStrutsAction extends ActionSupport{
 			ret=ERROR;
 		}
 		return ret;
+
 	}
 
 	public List<HelloStrutsDTO> getHelloStrutsDTOList() {
