@@ -8,7 +8,7 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class HelloStrutsAction extends ActionSupport{
 
-    private List<HelloStrutsDTO> HelloStrutsDTOList = new ArrayList<HelloStrutsDTO>();
+    private List<HelloStrutsDTO>HelloStrutsDTOList = new ArrayList<HelloStrutsDTO>();
 
 
     public String execute(){
