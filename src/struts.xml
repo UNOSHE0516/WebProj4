@@ -23,7 +23,7 @@
  	</action>
 
 	<action name="InquiryAction" class="com.diworksdev.webproj4.action.InquiryAction" method="execute">
-		<result name="success">inquiry.jsp</result>
+		<result name="success">Inquiry.jsp</result>
 	</action>
 
 	<action name="InquiryCompleteAction" class="com.diworksdev.webproj4.action.InquiryCompleteAction" method="execute">
