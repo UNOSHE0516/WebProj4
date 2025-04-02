@@ -33,14 +33,14 @@ import com.diworksdev.webproj4.util.DBConnector;
 
 				while(rs.next()){
 					LoginDTO dto =new LoginDTO();
-					dto.setUserName(rs.getString("user_name"));
+					dto.setUsername(rs.getString("user_name"));
 					dto.setPassword(rs.getString("password"));
 					loginDTOList.add(dto);
 				}
 
 				if(loginDTOList.size()<=0){
 					LoginDTO dto = new LoginDTO();
-					dto.setUserName("該当なし");
+					dto.setUsername("該当なし");
 					dto.setPassword("該当なし");
 					loginDTOList.add(dto);
 				}
