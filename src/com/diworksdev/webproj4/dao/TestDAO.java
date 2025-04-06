@@ -18,7 +18,7 @@ public class TestDAO {
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
 
-		String sql = "insert into users(user_name,password) value(?,?)";
+		String sql = "insert into users(user_name,password) values(?,?)";
 
 		try{
 			PreparedStatement ps = con.prepareStatement(sql);

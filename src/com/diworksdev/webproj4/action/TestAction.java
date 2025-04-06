@@ -7,6 +7,7 @@ import com.diworksdev.webproj4.dao.TestDAO;
 import com.diworksdev.webproj4.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
+
 public class TestAction extends ActionSupport{
 	private String username;
 	private String password;
